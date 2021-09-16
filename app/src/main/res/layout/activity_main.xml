@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".apply_for_job"
+
+    >
+
+
+    <TextView
+
+        android:id="@+id/applyjob"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/applyforajob"
+        android:fontFamily="times new roman"
+        android:gravity="center"
+        android:background="#F83E4F"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <EditText
+        android:id="@+id/job_title"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="23sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:fontFamily="times new roman"
+        android:hint="@string/jobtitle"
+        android:inputType="textCapSentences"
+        android:textColorHint="#012b74"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="94dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applyjob"
+        android:autofillHints="no" />
+
+
+
+
+    <EditText
+        android:id="@+id/job_description"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="23sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:fontFamily="times new roman"
+        android:hint="@string/jobdescription"
+        android:inputType="textCapSentences"
+        android:textColorHint="#012b74"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="154dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/job_title"
+        android:autofillHints="no"
+        />
+
+
+
+
+
+    <EditText
+
+        android:id="@+id/no_of_employees"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="23sp"
+        android:hint="@string/noofemployees"
+        android:inputType="number"
+        android:textColorHint="#012b74"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:drawablePadding="7dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="213dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/job_description"
+        android:autofillHints="no"
+        />
+
+
+    <EditText
+        android:id="@+id/job_location"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="23sp"
+        android:hint="@string/joblocation"
+        android:inputType="textCapSentences"
+        android:textColorHint="#012b74"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="7dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="271dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/no_of_employees"
+        android:autofillHints="no"
+        />
+
+    <EditText
+        android:id="@+id/job_category"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="23sp"
+        android:hint="@string/jobcategory"
+        android:inputType="textCapSentences"
+        android:textColorHint="#012b74"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="7dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="335dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/job_location"
+        android:autofillHints="no"
+        />
+
+
+    <EditText
+        android:id="@+id/working_hours"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="23sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:fontFamily="times new roman"
+        android:hint="@string/workinghours"
+        android:inputType="time"
+        android:textColorHint="#012b74"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="399dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/job_category"
+        android:autofillHints="no"
+        />
+
+
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="23sp"
+        android:hint="@string/salary"
+        android:inputType="number"
+        android:textColorHint="#012b74"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:drawablePadding="7dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="455dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/working_hours"
+        android:autofillHints="no"
+        />
+
+
+
+    <EditText
+
+        android:id="@+id/apply_before"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="23sp"
+        android:hint="@string/applybefore"
+        android:inputType="datetime"
+        android:textColorHint="#012b74"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:drawablePadding="7dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="213dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salary"
+        android:autofillHints="no"
+        />
+
+
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="283dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="32dp"
+        android:background="#F83E4F"
+        android:fontFamily="times new roman"
+        android:text="@string/apply"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/apply_before"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/apply_before"
+        app:layout_constraintTop_toBottomOf="@+id/apply_before" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

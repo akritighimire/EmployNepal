@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EmployNepal</string>
+    <string name="applyforajob">Apply for a Job</string>
+    <string name="jobtitle">Job Title</string>
+    <string name="jobdescription">Job Description</string>
+    <string name="noofemployees">No. of employees</string>
+    <string name="joblocation">Job Location</string>
+    <string name="workinghours">Working Hours</string>
+    <string name="jobcategory">Job Category</string>
+    <string name="salary">Salary</string>
+    <string name="applybefore">Apply Before</string>
+    <string name="apply">APPLY</string>
+    <string name="search">search</string>
+
+</resources>

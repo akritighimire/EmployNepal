@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "87776063451",
+    "firebase_url": "https://employnepal-f90bc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "employnepal-f90bc",
+    "storage_bucket": "employnepal-f90bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87776063451:android:43a2ba6811ead3dc0f01fe",
+        "android_client_info": {
+          "package_name": "com.example.employnepal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87776063451-5b95e16kopkjco8aoohbpfnj5nmk2v77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.employnepal",
+            "certificate_hash": "f688772ddfb920166eabe088c0055a49fbb91cb5"
+          }
+        },
+        {
+          "client_id": "87776063451-ljg6fabp57b1l63502ti0f79g1r0ofr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC8iegxJoFydLSykUpTjAHLGa3KePhcIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87776063451-ljg6fabp57b1l63502ti0f79g1r0ofr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
