@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.employnepal">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -10,10 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EmployNepal">
-        <activity android:name=".apply_job"/>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".ViewDatabase"/>
+        <activity
+            android:name=".apply_job"
+            android:exported="true" />
+<!--        <activity android:name=".apply_job" />-->
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ViewDatabase" />
+        <activity android:name=".applyy"/>
         <activity android:name=".search">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,3 +31,15 @@
     </application>
 
 </manifest>
+
+
+<!--    <manifest xmlns:android ="http://schemas.android.com/apk/res/android"-->
+<!--    >-->
+<!--    <application>-->
+<!--    <activity android:name ="com.example.employnepal.applyy"-->
+<!--    android:exported="true"-->
+<!--    -->
+<!--     />-->
+<!--    </application>-->
+<!--    </manifest>-->
+<!--&lt;!&ndash;    >>>>>>> Added&ndash;&gt;-->

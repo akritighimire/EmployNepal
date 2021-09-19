@@ -17,7 +17,7 @@ public class search extends Activity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(search.this,ViewDatabase.class);
+                Intent intent=new Intent(search.this,applyy.class);
                 //Intent intent1=(new Intent(search.this ,apply_job.class));
                 startActivity(intent);
                 //startActivity(intent1);
