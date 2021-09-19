@@ -94,7 +94,7 @@ public class ViewDatabase extends AppCompatActivity {
 
     }
 
-    private void showData(DataSnapshot dataSnapshot) {
+    public void showData(DataSnapshot dataSnapshot) {
         for(DataSnapshot ds : dataSnapshot.getChildren()){
             UserInformation uInfo = new UserInformation();
             uInfo.setJobtitle(ds.child(userID).getValue(UserInformation.class).getJobtitle());
@@ -148,7 +148,7 @@ public class ViewDatabase extends AppCompatActivity {
      * customizable toast
      * @param message
      */
-    private void toastMessage(String message){
+    public void toastMessage(String message){
         Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
     }
 }
