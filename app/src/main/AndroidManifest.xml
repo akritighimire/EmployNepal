@@ -14,15 +14,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EmployNepal">
         <activity
-            android:name=".apply_job"
+            android:name=".done"
             android:exported="true" />
-<!--        <activity android:name=".apply_job" />-->
+        <activity
+            android:name=".apply_job"
+            android:exported="true" /> <!-- <activity android:name=".apply_job" /> -->
         <activity android:name=".MainActivity" />
         <activity android:name=".ViewDatabase" />
-        <activity android:name=".applyy"/>
-        <activity android:name=".search">
-
-
+        <activity android:name=".search"/>
+        <activity android:name=".applyy2" />
+        <activity android:name=".applyy">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,15 +33,3 @@
     </application>
 
 </manifest>
-
-
-<!--    <manifest xmlns:android ="http://schemas.android.com/apk/res/android"-->
-<!--    >-->
-<!--    <application>-->
-<!--    <activity android:name ="com.example.employnepal.applyy"-->
-<!--    android:exported="true"-->
-<!--    -->
-<!--     />-->
-<!--    </application>-->
-<!--    </manifest>-->
-<!--&lt;!&ndash;    >>>>>>> Added&ndash;&gt;-->

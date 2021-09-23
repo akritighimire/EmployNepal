@@ -46,7 +46,7 @@ public class ViewDatabase extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.apply_job);
+        setContentView(R.layout.activity_applyy);
 
         mListView = (ListView) findViewById(R.id.listview);
         //btnapply= findViewById(R.id.apply);

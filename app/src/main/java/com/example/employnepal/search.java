@@ -18,7 +18,7 @@ public class search extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(search.this,applyy.class);
-                //Intent intent1=(new Intent(search.this ,apply_job.class));
+                //Intent intent1=(new Intent(search.this ,applyy.class));
                 startActivity(intent);
                 //startActivity(intent1);
             }

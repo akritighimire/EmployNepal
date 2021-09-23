@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 public class applyy extends AppCompatActivity {
 
-    public static final String TAG = "ViewDatabase";
+    private static final String TAG = "applyy";
     FirebaseDatabase database;
     DatabaseReference ref;
     FirebaseAuth auth;
@@ -31,19 +31,19 @@ public class applyy extends AppCompatActivity {
     ListView listView;
     ArrayList<String> list=new ArrayList<>();
     ArrayAdapter <UserInformation> adapter;
-    String userID;
+    private static String userID;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_applyy);
-        listView=(ListView)findViewById(R.id.list_view);
+        listView=/*(ListView)*/findViewById(R.id.list_view);
         final ArrayAdapter<String>adapter=new ArrayAdapter<String>(this,android.R.layout.simple_dropdown_item_1line,list);
         listView.setAdapter(adapter);
         auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
         FirebaseUser user = auth.getCurrentUser();
-        FirebaseAuth.getInstance().getCurrentUser().getUid();//added later
+//        FirebaseAuth.getInstance().getCurrentUser().getUid();//added later
 //        String userID = UserInfo.getUid();
         ref =database.getReference("UserInformation");
         ref= FirebaseDatabase.getInstance().getReference();
